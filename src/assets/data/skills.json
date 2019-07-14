@@ -1,0 +1,99 @@
+[
+    {
+        "category": "Web Application",
+        "skills": [
+            "ASP.Net Core",
+            "ASP.Net MVC & Web API",
+            "ASP.Net Web Forms"
+        ]
+    },
+    {
+        "category": "Desktop Application",
+        "skills": [
+            "Windows Presentation Foundation",
+            "Windows Forms",
+            "Universal Windows Platform (UWP)"
+        ]
+    },
+    {
+        "category": "Build Tools",
+        "skills": [
+            "Cake Scripts",
+            "Azure Devops",
+            "Jenkins"
+        ]
+    },
+    {
+        "category": "Quality",
+        "skills": [
+            "UI - Automation",
+            "Performance testing",
+            "BenchmarkDotNet & JMeter"
+        ]
+    },
+    {
+        "category": "Frontend Technologies",
+        "skills": [
+            "Angular 8",
+            "Vue 3",
+            "Html 5",
+            "CSS 3",
+            "TypeScript",
+            "JavaScript"
+        ]
+    },
+    {
+        "category": "Unit Testing Framework",
+        "skills": [
+            "xUnit",
+            "nUnit",
+            "Moq",
+            "Shouldly",
+            "nFluent",
+            "Fluent Assertion"
+        ]
+    },
+    {
+        "category": "Productivity Tools",
+        "skills": [
+            "ReSharper",
+            "LinqPad",
+            "RoslynPad",
+            "NSwag Studio",
+            "Postman",
+            "MagicDraw"
+        ]
+    },
+    {
+        "category": "Database / ORM",
+        "skills": [
+            "SQL Server",
+            "MongoDB",
+            "Entity Framework",
+            "nHibernate",
+            "Dapper",
+            "C# Mongo Driver"
+        ]
+    },
+    {
+        "category": "Mobile Development",
+        "skills": [
+            "Ionic 4",
+            "Progressive Web App (PWA)"
+        ]
+    },
+    {
+        "category": "Source Control",
+        "skills": [
+            "Git",
+            "TFS"
+        ]
+    },
+    {
+        "category": "Process",
+        "skills": [
+            "Agile - Scrum",
+            "BDD using SpecFlow"
+        ]
+    }
+]
