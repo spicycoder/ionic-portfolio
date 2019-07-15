@@ -16,7 +16,7 @@
             <ion-card-title>{{ skill.category }}</ion-card-title>
           </ion-card-header>
           <ion-card-content>
-            <ion-list *ngIf="skill.skills && skill.skills.length > 0">
+            <ion-list *ngIf="skill.skills && skill.skills.length > 0" mode="md">
               <ion-item *ngFor="let s of skill.skills">
                 <ion-label>{{ s }}</ion-label>
               </ion-item>
