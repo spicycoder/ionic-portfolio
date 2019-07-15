@@ -3,10 +3,35 @@
     <ion-buttons slot="start">
       <ion-menu-button></ion-menu-button>
     </ion-buttons>
-    <ion-title>experience</ion-title>
+    <ion-title>Experience</ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
-
+  <ion-grid fixed>
+    <ion-row *ngIf="experiences && experiences.length > 0">
+      <ion-col size-xs="12" size-sm="6" size-md="4" size-lg="3" *ngFor="let experience of experiences">
+        <ion-card>
+          <ion-card-header>
+            <ion-card-subtitle>{{ experience.title }}</ion-card-subtitle>
+            <ion-card-title color="primary">{{ experience.company }}</ion-card-title>
+            <ion-card-subtitle color="secondary">{{ experience.domain }}</ion-card-subtitle>
+          </ion-card-header>
+          <ion-card-content>
+            {{ experience.duration }}
+            <ion-list>
+              <ion-header>
+                <ion-label>Roles & Responsibilities</ion-label>
+              </ion-header>
+              <ion-item *ngFor="let role of experience.roles">
+                <ion-label>
+                  {{ role }}
+                </ion-label>
+              </ion-item>
+            </ion-list>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
 </ion-content>

@@ -1,0 +1,57 @@
+[
+    {
+        "company": "Eurofins",
+        "duration": "June 2019 - Till date",
+        "site": "http://eurofins.com",
+        "title": "Module Lead",
+        "domain": "eCommerce",
+        "roles": [
+            "Associate architect",
+            "Technical lead"
+        ]
+    },
+    {
+        "company": "ABCO Advisory Services",
+        "duration": "May 2012 - June 2013 & Oct 2014 - June 2016",
+        "site": "http://advisory.com",
+        "title": "Software Engineer",
+        "domain": "Healthcare",
+        "roles": [
+            "Full stack developer",
+            "Web & Windows application development"
+        ]
+    },
+    {
+        "company": "Kony",
+        "duration": "Jun 2013 - Sep 2014",
+        "site": "http://kony.com",
+        "title": "Senior Product Developer",
+        "domain": "Mobile framework",
+        "roles": [
+            "Mobile application development framework",
+            "Windows phone & Kiosk application development"
+        ]
+    },
+    {
+        "company": "iLink-Systems",
+        "duration": "Sep 2011 - May 2012",
+        "site": "http://ilink-systems.com",
+        "title": "Software Engineer",
+        "domain": "Tele Communications",
+        "roles": [
+            "Research & development",
+            "Implementing tools & POC"
+        ]
+    },
+    {
+        "company": "Srinsoft technologies",
+        "duration": "June 2009 - May 2011",
+        "site": "http://srinsofttech.com",
+        "title": "Technical Lead",
+        "domain": "Engineering Services & CAD",
+        "roles": [
+            "Web application development",
+            "Desktop application & add-ons development"
+        ]
+    }
+]
